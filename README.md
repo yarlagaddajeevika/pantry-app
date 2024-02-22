@@ -1,4 +1,4 @@
-#Pantry Web App
+# Pantry Web App
 
 
 The Pantry Web App is an application that is being built as a tool for the UC Berkeley Food Pantry to manage inventory and orders, and perform other administrative tasks to more effectively meet the needs of pantry guests and volunteers. While the primary audience of this app is the UC Berkeley Food Pantry, this project can be repruposed for any use case. 
