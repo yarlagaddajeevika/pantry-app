@@ -1,10 +1,7 @@
-# Cal Nourish Web App
+#Pantry Web App
 
-<a aria-label="Powered by Vercel" href="https://vercel.com?utm_source=cal-nourish&utm_campaign=oss" title="Powered by Vercel">
-  <img src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" height="42" />
-</a>
 
-The Cal Nourish Web App is an application that is being built as a tool for the UC Berkeley Food Pantry to manage inventory and orders, and perform other administrative tasks to more effectively meet the needs of pantry guests and volunteers. While the primary audience of this app is the UC Berkeley Food Pantry, this project can be repruposed for any use case. 
+The Pantry Web App is an application that is being built as a tool for the UC Berkeley Food Pantry to manage inventory and orders, and perform other administrative tasks to more effectively meet the needs of pantry guests and volunteers. While the primary audience of this app is the UC Berkeley Food Pantry, this project can be repruposed for any use case. 
 
 For more information about the UC Berkeley Food Pantry, you can visit their [website](https://basicneeds.berkeley.edu/pantry)
 
