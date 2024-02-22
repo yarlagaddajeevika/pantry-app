@@ -1,0 +1,87 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+/* Chrome, Safari, Edge, Opera */
+.no-arrows-input::-webkit-outer-spin-button,
+.no-arrows-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.no-arrows-input[type=number] {
+  -moz-appearance: textfield;
+}
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Custom components */
+@layer components {
+
+  /* Button Styling */
+  .btn {
+    @apply py-2 px-4 text-sm rounded leading-5 transition duration-150 ease-in-out;
+  }
+
+  .btn:focus {
+    outline-width: 1px,
+    @apply outline-black shadow-none;
+  }
+
+  .btn-outline {
+    @apply bg-transparent text-gray-600 border border-gray-400;
+  }
+
+  .btn-outline:hover {
+    @apply bg-gray-200;
+  }
+
+  .btn-outline:focus, .btn-outline:active {
+    @apply bg-gray-300;
+  }
+
+  .btn-pantry-blue {
+    @apply text-white bg-pantry-blue-500 border border-transparent;
+  }
+
+  .btn-pantry-blue:hover {
+    @apply bg-pantry-blue-400 
+  }
+
+  .btn-pantry-blue:active {
+    @apply bg-pantry-blue-700
+  }
+
+  .btn-outline-pantry-blue {
+    @apply bg-transparent text-pantry-blue-500  border border-pantry-blue-500;
+  }
+
+  .btn-outline-pantry-blue:hover {
+    @apply text-white  bg-pantry-blue-500 border border-transparent;
+  }
+
+  .btn-outline-pantry-blue:active, btn-outline-pantry-blue:focus {
+    @apply bg-pantry-blue-700;
+  }
+
+  .btn-pantry-green {
+    @apply text-white bg-pantry-green-500 border border-transparent;
+  }
+
+  /* marking required/optional fields in forms (order) */
+  label[data-required="T"]::after {
+    content: " *";
+    @apply text-red-600;
+  }
+
+  label[data-required="F"]::after {
+    content: " (optional)";
+    @apply text-gray-500 font-normal normal-case tracking-normal;
+  }
+
+}
